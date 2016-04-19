@@ -2,7 +2,10 @@
 
 const bitbucket = require(__dirname + '/lib/bitbucket')
 
-const success = (json) => { console.log(json) }
+bitbucket.demo()
+  .then(data => { console.log(data) })
+  .catch(err => { console.error(err) })
 
-// bitbucket.demo(success)
-bitbucket.changesets('martianfield', 'bindery_test', success)
+bitbucket.changesets('martianfield', 'bindery_test')
+  .then(data => { console.log(data) })
+  .catch(err => { console.error(err) })
