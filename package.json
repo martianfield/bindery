@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/martianfield/bindery/issues"
   },
-  "homepage": "https://github.com/martianfield/bindery#readme"
+  "homepage": "https://github.com/martianfield/bindery#readme",
+  "dependencies": {
+    "setthings": "^0.2.0"
+  }
 }
