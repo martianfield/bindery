@@ -13,5 +13,5 @@ bitbucket.changesets('martianfield', 'bindery_test')
 */
 
 bitbucket.files('martianfield', 'bindery_test')
-  .then(data => { console.log(data) })
+  .then(data => { console.log("done:", data) })
   .catch(err => { console.error(err) })
