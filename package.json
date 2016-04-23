@@ -18,5 +18,8 @@
   "homepage": "https://github.com/martianfield/bindery#readme",
   "dependencies": {
     "setthings": "^0.2.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0"
   }
 }
